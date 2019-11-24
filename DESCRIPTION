@@ -1,0 +1,8 @@
+IO4-based ESP8266 Wemos D1 Core Field Processor board with WiFi and I2C
+
+Initial design thoughts and experimental platform
+
+This version morphed into Core-Multi, which didn't work for WeMOS (D0 not usable for I2C with a mosfet voltage matching circuit...)
+
+
+
