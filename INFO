@@ -3,5 +3,6 @@ project: Core-Wemos
 designer: John Plocher
 fabricated: yes
 fab_date: 2016-12
+image_path: Core-Wemos-Graphic.png
 status: released
 release: yes
