@@ -8,17 +8,17 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -37,12 +37,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="50" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="50" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -195,7 +195,7 @@ D1 Mini</text>
 D1 Mini R2</text>
 <text x="58.293" y="57.023" size="1.27" layer="21" rot="R90">D5</text>
 <text x="55.753" y="57.023" size="1.27" layer="21" rot="R90">D6</text>
-<text x="74.28024375" y="77.642259375" size="1.4224" layer="21">v3.0</text>
+<text x="74.28024375" y="77.642259375" size="1.4224" layer="21">v4.0</text>
 <text x="3.228040625" y="20.85159375" size="1.4224" layer="21" ratio="10" rot="R90">CMRI i/o</text>
 <text x="10.16" y="32.6898" size="0.8128" layer="21">D7</text>
 <text x="30.3784" y="68.0974" size="1.016" layer="21">IO4 &amp; CMRI I/O are 5v
@@ -219,6 +219,9 @@ I2C-OLED is 3v3 ONLY.</text>
 <wire x1="16.51" y1="17.78" x2="29.21" y2="17.78" width="0.3048" layer="21"/>
 <wire x1="29.21" y1="17.78" x2="29.21" y2="30.48" width="0.3048" layer="21"/>
 <wire x1="29.21" y1="30.48" x2="16.51" y2="30.48" width="0.3048" layer="21"/>
+<text x="11.35235625" y="84.920028125" size="3.048" layer="21" ratio="15" rot="SR0">Core WeMos</text>
+<text x="41.26024375" y="86.532259375" size="1.4224" layer="21">v4.0</text>
+<text x="41.38724375" y="84.500759375" size="1.016" layer="21">2020.07</text>
 </plain>
 <libraries>
 <library name="SparkFun">

@@ -11177,7 +11177,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <plain>
 <text x="149.86" y="25.4" size="3.81" layer="97">IO &amp; I2C Adapter for WeMOS D1</text>
 <text x="152.908" y="6.35" size="3.81" layer="97">John Plocher</text>
-<text x="235.458" y="6.604" size="3.81" layer="97">2.0</text>
+<text x="235.458" y="6.604" size="3.81" layer="97">4.0</text>
 <text x="149.86" y="38.1" size="1.6764" layer="102">Processor carrier board for WeMOS D1
 Breaks out 5v I2C, IO4 style header for direct IO,
 Maintainer Call and Matrix Display</text>
