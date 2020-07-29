@@ -8,20 +8,20 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="19" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -37,15 +37,15 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="50" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="50" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="24" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -162,7 +162,7 @@
 <wire x1="30.623" y1="55.88" x2="33.163" y2="57.277" width="2.54" layer="52"/>
 <text x="25.543" y="79.1718" size="1.6764" layer="52" rot="MR180">Made in the PCR, Coast Division, NMRA</text>
 <text x="8.6532" y="5.4298" size="1.4224" layer="52" font="vector" ratio="15" rot="MR180">www. SP Coast .com</text>
-<text x="77.3373" y="63.7668" size="1.4224" layer="52" font="vector" ratio="15" rot="MR0">CMRInet Interface,
+<text x="53.2073" y="63.7668" size="1.4224" layer="52" font="vector" ratio="15" rot="MR0">CMRInet Interface,
 IO4 breakout, and
 I2C master</text>
 <text x="73.8472" y="43.307" size="3.81" layer="52" font="vector" ratio="15" rot="MR0">Core WeMOS
