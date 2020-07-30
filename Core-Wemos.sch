@@ -11078,7 +11078,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <class number="1" name="Power" width="0.4064" drill="0.8">
 <clearance class="1" value="0.254"/>
 </class>
-<class number="2" name="signals" width="0.3048" drill="0.6">
+<class number="2" name="signals" width="0.254" drill="0.6">
 <clearance class="2" value="0.254"/>
 </class>
 <class number="3" name="Feed" width="1.016" drill="1.4">
