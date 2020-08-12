@@ -11790,10 +11790,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="CMRI-IO" library="SPCoast" deviceset="CONNECTOR-M05" device="CMRI"/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
 <part name="VCC2" library="supply1" deviceset="VCCIO" device=""/>
-<part name="FID3" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID4" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-LL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-UR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="I2C-OLED" library="SPCoast" deviceset="CONNECTOR-I2C" device="NOOUTLINE"/>
 <part name="V4" library="supply2" deviceset="GND" device=""/>
 <part name="3V8" library="supply1" deviceset="+3V3" device=""/>
@@ -11948,10 +11948,10 @@ D1 Mini R2</text>
 <instance part="CMRI-IO" gate="G$1" x="71.12" y="63.5" rot="MR0"/>
 <instance part="V2" gate="GND" x="60.96" y="55.88"/>
 <instance part="VCC2" gate="G$1" x="53.34" y="63.5"/>
-<instance part="FID3" gate="FID1" x="243.84" y="48.26"/>
-<instance part="FID1" gate="FID1" x="243.84" y="63.5"/>
-<instance part="FID2" gate="FID1" x="243.84" y="71.12"/>
-<instance part="FID4" gate="FID1" x="243.84" y="55.88"/>
+<instance part="FID-UL" gate="FID1" x="243.84" y="48.26"/>
+<instance part="FID-LR" gate="FID1" x="243.84" y="63.5"/>
+<instance part="FID-LL" gate="FID1" x="243.84" y="71.12"/>
+<instance part="FID-UR" gate="FID1" x="243.84" y="55.88"/>
 <instance part="I2C-OLED" gate="I2C" x="195.58" y="63.5" rot="R180"/>
 <instance part="V4" gate="GND" x="185.42" y="58.42"/>
 <instance part="3V8" gate="G$1" x="177.8" y="66.04" rot="MR0"/>

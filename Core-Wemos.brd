@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
@@ -1285,10 +1285,10 @@ design rules under a new name.</description>
 <element name="CMRI-IO" library="SPCoast" package="CON-CMRI-IO" value="" x="6.35" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.8834" y="34.2392" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="FID3" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="2.413" y="70.485" smashed="yes"/>
-<element name="FID1" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="77.216" y="3.937" smashed="yes"/>
-<element name="FID2" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="3.302" y="3.175" smashed="yes"/>
-<element name="FID4" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="77.851" y="75.692" smashed="yes"/>
+<element name="FID-UL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.778" y="78.105" smashed="yes"/>
+<element name="FID-LR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="77.216" y="3.937" smashed="yes"/>
+<element name="FID-LL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="3.302" y="3.175" smashed="yes"/>
+<element name="FID-UR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="77.851" y="75.692" smashed="yes"/>
 <element name="I2C-OLED" library="SPCoast" package="I2C-NOOUTLINE" value="" x="19.939" y="29.337" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.637" y="33.147" size="1.016" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="13.081" y="29.718" size="0.635" layer="27" font="vector" ratio="10" rot="R270"/>
