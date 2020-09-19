@@ -11477,16 +11477,16 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
 <part name="VCC4" library="supply1" deviceset="VCCIO" device=""/>
 <part name="J3" library="SPCoast" deviceset="CONNECTOR-RJ25" device="-6P6C" value="IO4"/>
-<part name="IO4-6" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK"/>
+<part name="IO4-6" library="SPCoast" deviceset="CONNECTOR-M06" device="LOCK" value="0.100"/>
 <part name="I2C" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="CONNECTOR-I2CLEFT"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="J2" library="SPCoast" deviceset="CONNECTOR-GROVE-4P-2.0" device="-3470130P1" value="2mm"/>
 <part name="V5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>
-<part name="J1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA"/>
+<part name="J1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="2.1mm"/>
 <part name="LABEL1" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="7-12vDC"/>
 <part name="VCC12" library="supply1" deviceset="VCCIO" device=""/>
-<part name="BOARD" library="SPCoast" deviceset="BOARD" device="80X80-NOHOLES" value="BOARD80X150"/>
+<part name="BOARD" library="SPCoast" deviceset="BOARD" device="80X80-NOHOLES" value="BOARD80X80"/>
 <part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value="10uF"/>
 <part name="C1" library="SPCoast" deviceset="CAP*" device="0805" value="1.0uF"/>
 <part name="VR5.0" library="SPCoast" deviceset="VREG-?-*" device="DPAK" technology="5" value="cj7805"/>
@@ -11553,7 +11553,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="R19" library="SPCoast" deviceset="R*" device="0603-RES" value="2K0"/>
 <part name="LED18" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
-<part name="JP1" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK"/>
+<part name="JP1" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK" value="0.100"/>
 </parts>
 <sheets>
 <sheet>
