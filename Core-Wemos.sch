@@ -11547,8 +11547,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="VCC2" library="supply1" deviceset="VCCIO" device=""/>
 <part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID-LL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID-UR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="I2C-OLED" library="SPCoast" deviceset="CONNECTOR-I2C" device="NOOUTLINE" value="OLED"/>
 <part name="V4" library="supply2" deviceset="GND" device=""/>
 <part name="3V8" library="supply1" deviceset="+3V3" device=""/>
@@ -11703,10 +11701,8 @@ D1 Mini R2</text>
 <instance part="CMRI-IO" gate="CON1" x="71.12" y="63.5" rot="MR0"/>
 <instance part="V2" gate="GND" x="60.96" y="55.88"/>
 <instance part="VCC2" gate="G$1" x="53.34" y="63.5"/>
-<instance part="FID-UL" gate="FID1" x="243.84" y="48.26"/>
-<instance part="FID-LR" gate="FID1" x="243.84" y="63.5"/>
-<instance part="FID-LL" gate="FID1" x="243.84" y="71.12"/>
-<instance part="FID-UR" gate="FID1" x="243.84" y="55.88"/>
+<instance part="FID-UL" gate="FID1" x="243.84" y="50.8"/>
+<instance part="FID-LR" gate="FID1" x="243.84" y="45.72"/>
 <instance part="I2C-OLED" gate="I2C" x="195.58" y="63.5" rot="R180"/>
 <instance part="V4" gate="GND" x="185.42" y="58.42"/>
 <instance part="3V8" gate="G$1" x="177.8" y="66.04" rot="MR0"/>
